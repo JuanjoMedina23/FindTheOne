@@ -1,3 +1,8 @@
+import { AiAdapterNotConfiguredError } from "../../types/ai";
+import type { ExtractRequirements } from "../../types/ai";
+
+export const extractRequirements: ExtractRequirements = () =>
+  Promise.reject(new AiAdapterNotConfiguredError("extractRequirements"));
 import { runCompletion } from "./qvac";
 import { EXTRACT_REQUIREMENTS_SYSTEM, buildExtractRequirementsPrompt } from "./prompts";
 import { RequirementsSchema, type Requirements } from "./schemas";

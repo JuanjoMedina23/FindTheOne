@@ -1,3 +1,8 @@
+import { AiAdapterNotConfiguredError } from "../../types/ai";
+import type { EvaluateCandidate } from "../../types/ai";
+
+export const evaluateCandidate: EvaluateCandidate = () =>
+  Promise.reject(new AiAdapterNotConfiguredError("evaluateCandidate"));
 import { runCompletion } from "./qvac";
 import { EVALUATE_CANDIDATE_SYSTEM, buildEvaluateCandidatePrompt } from "./prompts";
 import { EvaluationSchema, type Evaluation, type Requirements } from "./schemas";

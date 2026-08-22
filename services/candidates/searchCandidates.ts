@@ -1,10 +1,6 @@
+import type { Requirements } from "../../types/ai";
 import type { Candidate } from "../../types/candidate";
 import { getCandidates } from "./getCandidates";
-
-export type Requirements = {
-  readonly required: readonly string[];
-  readonly preferred: readonly string[];
-};
 
 const MAX_RESULTS = 5;
 

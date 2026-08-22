@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "name": "Maya Chen",
+    "role": "Machine Learning Engineer",
+    "skills": ["Python", "PyTorch", "FastAPI", "PostgreSQL"],
+    "tags": ["AI", "NLP", "mentoring"],
+    "experience": [
+      {
+        "company": "Lumen Labs",
+        "role": "Senior ML Engineer",
+        "startYear": 2021,
+        "highlights": ["Deployed multilingual ranking models", "Mentored three junior engineers"]
+      },
+      {
+        "company": "Northstar Analytics",
+        "role": "Data Scientist",
+        "startYear": 2018,
+        "endYear": 2021,
+        "highlights": ["Built demand forecasting pipelines"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Support Copilot",
+        "description": "A retrieval-assisted support response system.",
+        "technologies": ["Python", "PyTorch", "FastAPI"]
+      }
+    ],
+    "ratings": { "technical": 4.9, "communication": 4.6, "teamwork": 4.7, "leadership": 4.5 },
+    "reviews": ["Turns research into reliable production systems.", "Shares context clearly and helps teammates grow."]
+  },
+  {
+    "id": 2,
+    "name": "Liam Brooks",
+    "role": "Frontend Engineer",
+    "skills": ["TypeScript", "React", "Next.js", "CSS"],
+    "tags": ["frontend", "accessibility", "design systems"],
+    "experience": [
+      {
+        "company": "Canvas Works",
+        "role": "Frontend Engineer",
+        "startYear": 2020,
+        "highlights": ["Created an accessible component library", "Improved page performance scores"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Atlas UI",
+        "description": "A reusable design system for three product teams.",
+        "technologies": ["TypeScript", "React", "Storybook"]
+      }
+    ],
+    "ratings": { "technical": 4.7, "communication": 4.4, "teamwork": 4.5, "leadership": 3.8 },
+    "reviews": ["Balances visual polish with maintainable frontend code."]
+  },
+  {
+    "id": 3,
+    "name": "Sofia Alvarez",
+    "role": "Backend Engineer",
+    "skills": ["Go", "PostgreSQL", "Redis", "gRPC"],
+    "tags": ["backend", "distributed systems", "performance"],
+    "experience": [
+      {
+        "company": "Relay Cloud",
+        "role": "Backend Engineer",
+        "startYear": 2019,
+        "highlights": ["Reduced API latency by 45 percent", "Designed resilient event processing"]
+      }
+    ],
+    "ratings": { "technical": 4.8, "communication": 4.1, "teamwork": 4.3, "leadership": 3.9 },
+    "reviews": ["Excellent at diagnosing production bottlenecks."]
+  },
+  {
+    "id": 4,
+    "name": "Noah Okafor",
+    "role": "Mobile Engineer",
+    "skills": ["React Native", "TypeScript", "Expo", "Kotlin"],
+    "tags": ["mobile", "cross-platform", "offline-first"],
+    "experience": [
+      {
+        "company": "Pocket Trail",
+        "role": "Senior Mobile Engineer",
+        "startYear": 2020,
+        "highlights": ["Shipped offline navigation on iOS and Android", "Cut crash rates by 60 percent"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Field Notes",
+        "description": "An offline-first inspection app for remote teams.",
+        "technologies": ["Expo", "React Native", "SQLite"]
+      }
+    ],
+    "ratings": { "technical": 4.6, "communication": 4.3, "teamwork": 4.6, "leadership": 4.0 },
+    "reviews": ["A dependable collaborator during difficult releases."]
+  },
+  {
+    "id": 5,
+    "name": "Priya Raman",
+    "role": "Data Engineer",
+    "skills": ["Python", "SQL", "Spark", "Airflow"],
+    "tags": ["data", "pipelines", "analytics"],
+    "experience": [
+      {
+        "company": "Metric Grove",
+        "role": "Data Engineer",
+        "startYear": 2018,
+        "highlights": ["Built governed analytics datasets", "Reduced pipeline costs by 30 percent"]
+      }
+    ],
+    "ratings": { "technical": 4.7, "communication": 4.2, "teamwork": 4.4, "leadership": 4.1 },
+    "reviews": ["Makes complex data lineage understandable."]
+  },
+  {
+    "id": 6,
+    "name": "Ethan Park",
+    "role": "DevOps Engineer",
+    "skills": ["AWS", "Terraform", "Kubernetes", "GitHub Actions"],
+    "tags": ["DevOps", "platform", "reliability"],
+    "experience": [
+      {
+        "company": "Harbor Stack",
+        "role": "Platform Engineer",
+        "startYear": 2019,
+        "highlights": ["Standardized infrastructure delivery", "Introduced zero-downtime deployments"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Launchpad",
+        "description": "A self-service deployment platform for application teams.",
+        "technologies": ["Terraform", "Kubernetes", "GitHub Actions"]
+      }
+    ],
+    "ratings": { "technical": 4.8, "communication": 4.0, "teamwork": 4.2, "leadership": 4.1 },
+    "reviews": ["Calm and methodical during incidents."]
+  },
+  {
+    "id": 7,
+    "name": "Amara Johnson",
+    "role": "Engineering Manager",
+    "skills": ["System Design", "TypeScript", "Hiring", "Coaching"],
+    "tags": ["leadership", "strategy", "mentoring"],
+    "experience": [
+      {
+        "company": "Bright Market",
+        "role": "Engineering Manager",
+        "startYear": 2017,
+        "highlights": ["Grew a team from five to eighteen", "Led a multi-year platform migration"]
+      }
+    ],
+    "ratings": { "technical": 4.3, "communication": 4.9, "teamwork": 4.8, "leadership": 5.0 },
+    "reviews": ["Sets a clear direction without taking ownership away from the team.", "The strongest people leader I have worked with."]
+  },
+  {
+    "id": 8,
+    "name": "Mateo Silva",
+    "role": "Full-Stack Engineer",
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB"],
+    "tags": ["full-stack", "teamwork", "product-minded"],
+    "experience": [
+      {
+        "company": "Common Thread",
+        "role": "Full-Stack Engineer",
+        "startYear": 2021,
+        "highlights": ["Partnered across design and support", "Delivered collaborative planning tools"]
+      }
+    ],
+    "ratings": { "technical": 4.2, "communication": 4.8, "teamwork": 5.0, "leadership": 4.2 },
+    "reviews": ["Actively unblocks others and invites quieter voices into decisions."]
+  },
+  {
+    "id": 9,
+    "name": "Olivia Grant",
+    "role": "Technical Lead",
+    "skills": ["Java", "Spring Boot", "PostgreSQL", "System Design"],
+    "tags": ["leadership", "backend", "architecture"],
+    "experience": [
+      {
+        "company": "Ledger Peak",
+        "role": "Technical Lead",
+        "startYear": 2016,
+        "highlights": ["Owned architecture for a payments platform", "Led quarterly technical planning"]
+      }
+    ],
+    "ratings": { "technical": 4.6, "communication": 3.2, "teamwork": 2.8, "leadership": 2.1 },
+    "reviews": ["Makes strong technical calls but can dismiss team concerns and dominate planning discussions."]
+  },
+  {
+    "id": 10,
+    "name": "Hugo Laurent",
+    "role": "QA Automation Engineer",
+    "skills": ["Playwright", "Cypress", "JavaScript", "CI/CD"],
+    "tags": ["quality", "automation", "testing"],
+    "experience": [
+      {
+        "company": "Verity Apps",
+        "role": "QA Automation Engineer",
+        "startYear": 2020,
+        "highlights": ["Built cross-browser regression suites", "Reduced flaky tests across CI"]
+      }
+    ],
+    "ratings": { "technical": 4.4, "communication": 4.3, "teamwork": 4.6, "leadership": 3.5 },
+    "reviews": ["Advocates for quality without slowing delivery."]
+  },
+  {
+    "id": 11,
+    "name": "Zara Ibrahim",
+    "role": "Security Engineer",
+    "skills": ["Threat Modeling", "Rust", "Linux", "Cloud Security"],
+    "tags": ["security", "infrastructure", "risk"],
+    "experience": [
+      {
+        "company": "Citadel Ridge",
+        "role": "Product Security Engineer",
+        "startYear": 2019,
+        "highlights": ["Established threat modeling practice", "Automated cloud policy checks"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Policy Lens",
+        "description": "A cloud configuration risk scanner.",
+        "technologies": ["Rust", "AWS", "Open Policy Agent"]
+      }
+    ],
+    "ratings": { "technical": 4.7, "communication": 4.5, "teamwork": 4.4, "leadership": 4.0 },
+    "reviews": ["Explains risk in practical product terms."]
+  },
+  {
+    "id": 12,
+    "name": "Ben Foster",
+    "role": "Product Designer",
+    "skills": ["Figma", "User Research", "Prototyping", "Design Systems"],
+    "tags": ["design", "research", "product"],
+    "experience": [
+      {
+        "company": "Kindred Studio",
+        "role": "Product Designer",
+        "startYear": 2022,
+        "highlights": ["Led customer discovery for a new product line", "Created rapid usability prototypes"]
+      }
+    ],
+    "ratings": { "technical": 3.6, "communication": 4.7, "teamwork": 4.8, "leadership": 3.7 },
+    "reviews": ["Brings clear customer evidence into product decisions."]
+  }
+]

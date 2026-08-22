@@ -1,36 +1,37 @@
-import Award from "lucide-react-native/icons/award";
-import BadgeCheck from "lucide-react-native/icons/badge-check";
-import BriefcaseBusiness from "lucide-react-native/icons/briefcase-business";
-import CheckCircle2 from "lucide-react-native/icons/check-circle-2";
-import ChevronRight from "lucide-react-native/icons/chevron-right";
-import CircleX from "lucide-react-native/icons/circle-x";
-import Filter from "lucide-react-native/icons/filter";
-import LockKeyhole from "lucide-react-native/icons/lock-keyhole";
-import Search from "lucide-react-native/icons/search";
-import ShieldCheck from "lucide-react-native/icons/shield-check";
-import Sparkles from "lucide-react-native/icons/sparkles";
-import Star from "lucide-react-native/icons/star";
-import Users from "lucide-react-native/icons/users";
-import X from "lucide-react-native/icons/x";
+import {
+  Award,
+  BadgeCheck,
+  BriefcaseBusiness,
+  CheckCircle2,
+  ChevronRight,
+  Filter,
+  LockKeyhole,
+  Search,
+  ShieldCheck,
+  Sparkles,
+  Star,
+  Users,
+  X
+} from "lucide-react-native";
 import { useMemo, useState } from "react";
 import {
-    Modal,
-    Pressable,
-    SafeAreaView,
-    ScrollView,
-    StatusBar,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  Modal,
+  Pressable,
+  SafeAreaView,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 import Animated, {
-    FadeIn,
-    FadeInDown,
-    FadeInUp,
-    useAnimatedStyle,
-    useSharedValue,
-    withSpring,
+  FadeIn,
+  FadeInDown,
+  FadeInUp,
+  useAnimatedStyle,
+  useSharedValue,
+  withSpring,
 } from "react-native-reanimated";
 
 type Candidate = {
@@ -294,7 +295,7 @@ function CandidateModal({
             </View>
 
             <Pressable onPress={onClose} style={styles.closeButton}>
-              <CircleX size={22} color="#70817A" />
+              <X size={22} color="#70817A" />
             </Pressable>
           </View>
 

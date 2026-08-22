@@ -31,3 +31,10 @@ export type EvaluateCandidate = (
   candidate: Candidate,
   requirements: Requirements,
 ) => Promise<unknown>;
+
+export class AiAdapterNotConfiguredError extends Error {
+  constructor(readonly operation: "extractRequirements" | "evaluateCandidate") {
+    super(`${operation} AI adapter is not configured`);
+    this.name = "AiAdapterNotConfiguredError";
+  }
+}
